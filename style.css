@@ -448,7 +448,9 @@ h1 {
     .stat-card span {
         font-size: 12px;
     }
-
+.telegram-btn {
+    text-decoration: none;
+}
     .telegram-btn {
         font-size: 16px;
     }
