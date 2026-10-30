@@ -54,11 +54,17 @@ src="https://www.facebook.com/tr?id=942729315303768&ev=PageView&noscript=1"
             </p>
 
             <!-- Top Telegram button -->
-            <button class="telegram-btn" type="button" onclick="joinTelegram()">
-                <span class="telegram-icon">✈</span>
-                <span>JOIN OUR COMMUNITY</span>
-                <span class="button-arrow">→</span>
-            </button>
+            <a
+    class="telegram-btn"
+    href="https://t.me/YOUR_CHANNEL"
+    target="_blank"
+    rel="noopener noreferrer"
+    onclick="fbq('track', 'Lead'); fbq('track', 'Subscribe');"
+>
+    <span class="telegram-icon">✈</span>
+    <span>JOIN TELEGRAM</span>
+    <span class="button-arrow">→</span>
+</a>
 
             <section class="stats-grid">
                 <div class="stat-card">
@@ -95,16 +101,22 @@ src="https://www.facebook.com/tr?id=942729315303768&ev=PageView&noscript=1"
             </section>
 
             <!-- Bottom Telegram button -->
-            <button class="telegram-btn bottom-btn" type="button" onclick="joinTelegram()">
-                <span class="telegram-icon">✈</span>
-                <span>JOIN NOW</span>
-                <span class="button-arrow">→</span>
-            </button>
+           <a
+    class="telegram-btn bottom-btn"
+    href="https://t.me/YOUR_CHANNEL"
+    target="_blank"
+    rel="noopener noreferrer"
+    onclick="fbq('track', 'Lead'); fbq('track', 'Subscribe');"
+>
+    <span class="telegram-icon">✈</span>
+    <span>JOIN NOW</span>
+    <span class="button-arrow">→</span>
+</a>
 
         </main>
 
     </div>
 
-    <script src="script.js"></script>
+    <!-- <script src="script.js"></script> -->
 </body>
 </html>
