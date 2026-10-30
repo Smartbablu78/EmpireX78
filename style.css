@@ -453,6 +453,9 @@ h1 {
         font-size: 16px;
     }
 }
+.telegram-btn {
+    text-decoration: none;
+}
 /* Remove underline from Telegram link buttons */
 a.telegram-btn,
 a.telegram-btn:visited,
