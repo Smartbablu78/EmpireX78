@@ -448,10 +448,16 @@ h1 {
     .stat-card span {
         font-size: 12px;
     }
-.telegram-btn {
-    text-decoration: none;
-}
+
     .telegram-btn {
         font-size: 16px;
     }
+}
+/* Remove underline from Telegram link buttons */
+a.telegram-btn,
+a.telegram-btn:visited,
+a.telegram-btn:hover,
+a.telegram-btn:active {
+    text-decoration: none !important;
+    color: #ffffff !important;
 }
